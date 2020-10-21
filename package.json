@@ -1,0 +1,18 @@
+{
+  "name": "ghost",
+  "version": "0.0.1",
+  "description": "Fork to get a Ghost blog",
+  "scripts": {
+    "start": "bash init.sh && node node_modules/ghost/index"
+  },
+  "dependencies": {
+    "ghost": "^3.7.0",
+    "ghost-cli": "^1.13.1",
+    "knex-migrator": "^3.4.1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "blog",
+    "ghost"
+  ]
+}
